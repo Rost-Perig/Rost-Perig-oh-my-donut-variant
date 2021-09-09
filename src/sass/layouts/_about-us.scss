@@ -1,0 +1,125 @@
+.aboutus-container {
+  display: flex;
+
+  @media screen and (max-width: 767.98px) {
+    flex-direction: column;
+  }
+
+  @media screen and (min-width: 768px) {
+    padding-top: 80px;
+    padding-right: 67px;
+  }
+  @media screen and (min-width: 1280px) {
+    padding-top: 40px;
+    padding-left: 70px;
+  }
+}
+
+#section {
+  @media screen and (max-width: 1198.98px) {
+    max-width: 298px;
+  max-height: auto;
+  word-wrap: break-word;
+  }
+}
+
+.moretext {
+  display: none;
+
+  @media screen and (min-width: 1280px) {
+        display: block;
+      }
+}
+
+.cupcake-pos {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-title {
+  font-size: 24px;
+
+  @media screen and (min-width: 1280px) {
+    font-size: 36px;
+  }
+
+  @media screen and (max-width: 767.98px) {
+    text-align: center;
+  }
+}
+
+.about-btn {
+  font-family: 'Caveat Brush', sans-serif;
+  text-decoration: none;
+  font-size: 18px;
+  color: var(--link-color);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
+  padding: 0;
+
+  @media screen and (min-width: 1280px) {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+  }
+}
+
+.about-btn:focus {
+  color: var(--focus-color);
+  transition: color var(--animation);
+}
+
+.about-wrapper {
+  margin-top: 5px;
+  width: 290px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media screen and (min-width: 768px) {
+    width: 491px;
+    padding-top: 10px;
+    margin-left: 20px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 392px;
+    padding-top: 85px;
+    margin-left: 80px;
+  }
+}
+
+.about-wrapper__wrap {
+  flex-direction: column;
+  margin-top: 10px;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 15px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    margin-top: 20px;
+  }
+}
+
+.about-wrap__text {
+  font-size: 16px;
+
+  @media screen and (min-width: 1280px) {
+    font-size: 18px;
+  }
+}
+
+.about-text-pos {
+  margin-top: 20px;
+
+  @media screen and (min-width: 1280px) {
+    margin-top: 30px;
+  }
+}

@@ -1,0 +1,73 @@
+.contact {
+
+  @media screen and (max-width: 767.98px) {
+    padding-top: 45px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    padding-top: 65px;
+  }
+  
+  @media screen and (min-width: 1280px) {
+    padding-top: 65px;
+  }
+  }
+
+.contact__title {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+
+  @media screen and (min-width: 1280px) {
+    font-size: 36px;
+  }
+}
+
+.contact__text {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact__field {
+  width: 265px;
+  position: relative;
+  margin-bottom: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media screen and (min-width: 320px) {
+    width: 265px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 410px;
+    margin-bottom: 15px;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 430px;
+  }
+}
+
+.contact__input {
+  width: inherit;
+  height: 22px;
+  border: none;
+  border-bottom: 1px solid var(--link-color);
+  background-color: transparent;
+}
+
+.contact__input::placeholder {
+  color: var(--registration-input-color);
+}
+
+.contact__button {
+  display: block;
+  margin: 20px auto auto;
+  text-align: center;
+}
+
+.contact__button:hover,
+.contact__button:focus {
+  background-color: var(--mobile-menu-hover);
+  transition: var(--animation);
+}

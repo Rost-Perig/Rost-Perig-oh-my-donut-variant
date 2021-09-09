@@ -1,0 +1,249 @@
+.program {
+  @media screen and (max-width: 767.98px) {
+    padding-top: 30px;
+  }
+
+  @media screen and (min-width: 768px) {
+    padding-top: 25px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    padding-top: 20px;
+  }
+}
+
+.program__flex-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 8.29px;
+}
+.program__text {
+  max-width: 382px;
+  margin-right: 40px;
+}
+.program__heading {
+  line-height: 1.8;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+.program__paragraph_1 {
+  font-size: 18px;
+  margin-bottom: 21px;
+}
+.program__text-list {
+  list-style: none;
+  margin-bottom: 21px;
+}
+.program__text-item:not(:last-child) {
+  padding-bottom: 15px;
+}
+.program__paragraph_2 {
+  font-size: 18px;
+}
+.program__text-item::before {
+  content: '>';
+  width: 100%;
+  margin-right: 3px;
+}
+.program__button {
+  font-family: 'Caveat Brush', sans-serif;
+  text-decoration: none;
+  font-size: 18px;
+  color: var(--link-color);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  padding: 0;
+
+  @media screen and (min-width: 1280px) {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+  }
+}
+.program__button:focus {
+  color: var(--focus-color);
+  transition: color var(--animation);
+}
+
+.program__title {
+  color: #000000;
+  margin-bottom: 16px;
+}
+.program__label {
+  --main-text-color: #000000;
+  margin-bottom: 17px;
+}
+.program__images {
+  display: flex;
+  margin-top: 61px;
+}
+.program__images-item {
+  position: relative;
+  margin-right: 32px;
+}
+.program__donut {
+  position: absolute;
+  top: -25%;
+  left: 41px;
+  right: 42px;
+}
+.program__circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 63px;
+  padding-bottom: 12px;
+  background-color: var(--body-bg-color);
+  border-radius: 50%;
+  width: 142px;
+  box-shadow: var(--program-shadow);
+}
+.program__images-item2--pos {
+  margin-top: 56px;
+}
+.program__images-item3--pos,
+.program__images-item4--pos {
+  margin-top: 61px;
+}
+@media screen and (min-width: 1279.98px) {
+  .program__circle {
+    width: 180px;
+  }
+}
+@media screen and (max-width: 1279.98px) {
+  .program__heading {
+    font-size: 24px;
+    margin-bottom: 0px;
+  }
+  .program__text-list {
+    margin-bottom: 0px;
+  }
+}
+
+#section-program {
+  @media screen and (max-width: 1198.98px) {
+    max-width: 298px;
+  max-height: auto;
+  word-wrap: break-word;
+  }
+}
+
+.program-moretext {
+  display: none;
+
+  @media screen and (min-width: 1280px) {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1279.98px) {
+  .program__paragraph_1 {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+  .program__paragraph_2 {
+    font-size: 16px;
+    line-height: 1.25;
+    margin-top: 10px;
+  }
+  .program__title {
+    font-size: 18px;
+    margin-bottom: 12.62px;
+  }
+  .program__label {
+    font-size: 14px;
+    margin-bottom: 13.41px;
+  }
+  .program__donut {
+    left: 32.34px;
+    right: 33.13px;
+  }
+}
+@media screen and (max-width: 1279.98px) {
+  .program__circle {
+    padding-top: 49.7px;
+    padding-bottom: 8.82px;
+  }
+  .program__donut {
+    width: 76.52px;
+    height: auto;
+  }
+}
+@media screen and (min-width: 100px) and (max-width: 767.98px) {
+  .program__flex-box {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .program__images {
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 200px) and (max-width: 767.98px) {
+  .program__text {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 290px;
+  }
+  .program__heading {
+    text-align: center;
+  }
+  .program__images-item {
+    margin-right: 6px;
+  }
+  .program__images-item2--pos {
+    margin-top: 25px;
+  }
+}
+@media screen and (min-width: 250px) and (max-width: 1279.98px) {
+  .program__images-item3--pos {
+    margin-top: 56.63px;
+  }
+  .program__images-item4--pos {
+    margin-top: 57.61px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1279.98px) {
+  .program__images-item {
+    margin-right: 15px;
+  }
+  .program__images {
+    margin-top: 30.5px;
+  }
+  .program__images-item2--pos {
+    margin-top: 25px;
+  }
+}
+/* Анимация пончиков */
+.program__donut1 {
+  transition: transform 1.2s ease-in-out;
+}
+.program__images-item:hover .program__donut1 {
+  transform: rotate(360deg);
+}
+.program__donut2 {
+  transition: transform 1.2s ease-in-out;
+}
+.program__images-item:hover .program__donut2 {
+  transform: rotate(360deg);
+}
+.program__donut3 {
+  transition: transform 1.2s ease-in-out;
+}
+.program__images-item:hover .program__donut3 {
+  transform: rotate(360deg);
+}
+.program__donut4 {
+  transition: transform 1.2s ease-in-out;
+}
+.program__images-item:hover .program__donut4 {
+  transform: rotate(360deg);
+}
