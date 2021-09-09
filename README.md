@@ -1,2 +1,3 @@
-# Rost-Perig-oh-my-donut-variant
-Rost-Perig/oh-my-donut-variant
+# oh-my-donut
+
+oh-my-donut - командный проект
